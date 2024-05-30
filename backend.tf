@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     key    = "terraform.tfstate"
-    bucket = "terraform.trainingdevops.cloud"
+    bucket = "terraform.sreerag.online"
     region = "us-east-2"
   }
 }
